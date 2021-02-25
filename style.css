@@ -1,25 +1,27 @@
 body{
-   background: hsl(0, 0%, 100%) ;
+   background: hsl(204, 43%, 93%);
     font-size: 16px;
     /* background:hsl(204, 43%, 93%); */
     font-family: 'Karla', sans-serif;
     font-weight:400, 700;
-    color:hsl(204, 43%, 93%);
+    color: hsl(218, 22%, 67%);
 		 max-width:1440px;
 		
 } 
 
 .content{
-
+width:80%;
     display:inline-block;
-   
-/* Glassmorphism
-background: rgb(255, 255, 255);
+   margin:50px 0px 50px 140px;
+
+
+/* Glassmorphism */
+background: rgba( 255, 255, 255, 0.70 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 15.5px );
--webkit-backdrop-filter: blur( 15.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+backdrop-filter: blur( 10.0px );
+-webkit-backdrop-filter: blur( 10.0px );
+border-radius: 20px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .join{
 	padding: 50px;
@@ -31,12 +33,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 
 .join h2 {
     color: hsl(71, 73%, 54%) ;
+
 }
 
 .bflex{
     display: inline-flex;
 		width:100%;
-    
+    		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
 }
 
 .month-sub{
@@ -74,16 +78,26 @@ width:50%;
 .sign-up:hover{
 	color:rgb(150, 145, 145);
 }
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%,44%); }
 
 @media only screen and (max-width: 375px){
-
+.content{
+	margin-left: 30px;
+	border:0px;
+	box-shadow:0px;
+backdrop-filter: 0px;
+-webkit-backdrop-filter: 0;
+border-radius:0px;
+}
 .join{
 padding:50px;
 }
 
 .bflex{
     display:inline-block;
-    
+    		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
 }
 
 .month-sub{

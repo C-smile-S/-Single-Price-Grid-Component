@@ -1,0 +1,99 @@
+body{
+   background: hsl(0, 0%, 100%) ;
+    font-size: 16px;
+    /* background:hsl(204, 43%, 93%); */
+    font-family: 'Karla', sans-serif;
+    font-weight:400, 700;
+    color:hsl(204, 43%, 93%);
+		 max-width:1440px;
+		
+} 
+
+.content{
+
+    display:inline-block;
+   
+/* Glassmorphism
+background: rgb(255, 255, 255);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15.5px );
+-webkit-backdrop-filter: blur( 15.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+.join{
+	padding: 50px;
+}
+
+.join h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.join h2 {
+    color: hsl(71, 73%, 54%) ;
+}
+
+.bflex{
+    display: inline-flex;
+		width:100%;
+    
+}
+
+.month-sub{
+    background: hsl(179, 62%, 43%) ;
+    padding: 20px;
+		width: 50%;
+    
+}
+
+.white{
+color:hsl(204, 43%, 93%);
+}
+.month-sub b{
+    color: hsl(204, 43%, 93%);
+    font-size: 30px;
+    
+}
+
+.why-us{
+background:  hsl(179, 78%, 61%) ;
+padding: 20px;
+color: hsl(204, 43%, 93%);
+width:50%;
+}
+.sign-up{
+	text-decoration: none;
+	text-align: center;
+	background: hsl(71, 73%, 54%);
+	padding: 10px 30px 10px 30px;
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+
+}
+
+.sign-up:hover{
+	color:rgb(150, 145, 145);
+}
+
+@media only screen and (max-width: 375px){
+
+.join{
+padding:50px;
+}
+
+.bflex{
+    display:inline-block;
+    
+}
+
+.month-sub{
+
+	padding:70px;
+}
+.why-us{
+padding:70px;
+}
+.sign-up{
+	padding: 10px 30px 10px 30px;
+}
+}
